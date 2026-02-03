@@ -1,0 +1,81 @@
+
+1. for loop
+2. foreach loop 
+3. while loop 
+4. do while loop 
+
+=> intialize
+=> range/condition
+=> increment/decrement
+
+for(intialize; range/condtion; increment/decrement)
+{
+    //Statement
+}
+
+for($i=0; $i<=4; $i++)
+{
+    echo "Hello World!!";
+}
+
+
+============While Loop=========
+
+$intialize;
+
+while(range/condtion){
+    //Statement...
+
+    //increment/decrement;
+}
+
+=======Do while loop=====
+
+$intialize;
+
+do{
+    //Statement..
+    //increment/decrement
+}
+
+while(range/condition);
+
+===Foreach Loop=====
+
+$array=[120, 567, 890, 567];
+
+foreach($array as $element){
+    //Statement...
+}
+
+
+
+====If-Else Conditional Statement====
+
+if(condition1){
+    //Statement...
+}
+
+elseif(condition2){
+    //Statement...
+}
+
+elseif(condition3){
+    //Statement...
+}
+
+else{
+    //Statement...
+}
+
+
+======Function===
+
+function functionName()
+{
+    //Statement...
+}
+
+functionName();
+
+
